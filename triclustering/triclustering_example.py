@@ -10,7 +10,7 @@ from cgc.utils import calculate_tricluster_averages
 
 # ----------------------------------------------- {1st step} -----------------------------------------------
 print("1. reading the 3d dataset...")
-spring_indices = xr.open_zarr('spring-indices.zarr', chunks=None)
+spring_indices = xr.open_zarr("https://raw.githubusercontent.com/esciencecenter-digital-skills/tutorial-cgc/main/data/spring-indices.zarr", chunks=None)
 print(spring_indices)
 
 
